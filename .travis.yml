@@ -3,11 +3,7 @@ cache: bundler
 sudo: false
 
 rvm:
-  - 1.9.3
-  - 2.0.0
-  - 2.1
-  - 2.2.4
-  - 2.3.0
+  - 2.4.1
 
 gemfile:
   - Gemfile
@@ -37,11 +33,3 @@ matrix:
       rvm: 2.0.0
     - gemfile: gemfiles/Gemfile.rails-5.0.x.sprockets-4.x
       rvm: 2.1
-
-notifications:
-  email: false
-  campfire:
-    on_success: change
-    on_failure: always
-    rooms:
-      - secure: "RkdRnCTQkmW7izb9+p9XB8pDrj7XiwHaOXQtEw29U7gXQDPqz77QzoL4cKlvMwalW77079Abp4gQpYeLFIZVm2VcVwFW3/6s0kgf3LGssbrF5fPSQnXk6GQGJBRGUyLt0TCi63Y/5DskREtEINbRfKLiDGm8ar/ExFoJzcZIsig="
